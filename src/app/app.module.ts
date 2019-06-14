@@ -16,6 +16,9 @@ import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component
 
 import { RegisterComponent } from './login/register.component';
 
+import { FormsModule } from '@angular/forms';
+
+
 
 
 
@@ -29,6 +32,8 @@ import { RegisterComponent } from './login/register.component';
     RegisterComponent,
     NopagefoundComponent,
     
+    
+    
 
     
   ],
@@ -36,6 +41,7 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
+    FormsModule
     
   ],
   providers: [],
